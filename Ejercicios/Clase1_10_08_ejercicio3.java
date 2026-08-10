@@ -1,6 +1,6 @@
 
 
-public class EjerciciosClase1_10_08_ejercicio3 {
+public class Clase1_10_08_ejercicio3 {
 	
 	public static void main(String[] args){
 		
