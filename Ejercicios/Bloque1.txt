@@ -1,0 +1,32 @@
+Bloque 1
+Ejercicio 1.1
+1) Rta: Opción b
+2) Rta: Opción b
+3) Rta: Opción b
+4) Rta: Opción b
+5) Rta: Opción b
+
+Ejercicio 1.2
+1) Falso, la JVM es parte de JRE
+2) Verdadero
+3) Falso, el JVM ejecuta en cualquier plataforma
+4) Verdadero
+5) Falso, el JIT del JVM ejecuta el bytecode
+6) Verdadero
+
+Ejercicio 1.3
+“.class” -> “Archivo que contiene el bytecode generado ”
+“JVM”  -> “Máquina virtual que ejecuta el bytecode sobre cada plataforma ”
+“JRE” -> “Entorno de ejecución: lo mínimo para correr un programa Java ya compilado. ”
+“JDK” -> “Kit de desarrollo: compilador, generador de documentación y herramientas ”
+“Classpath ” -> “Variable de entorno donde se buscan las clases y librerías. ”
+“javac” -> “Programa que compila el código fuente a bytecode.” 
+
+Ejercicio 1.4
+Orden codigo fuente  (1) hasta hardware (6)
+
+
+Ejercicio 1.5
+1) En C se compila directo a codigo de máquina específico del sistema operativo, Hay que compilar por separado para linux, windows y Mac
+En java, se compila una sola vez a bytecode(.class) la JVM traduce ese bytecode en cada plataforma el mismo
+2) Podemos encontrarnos con errores al querer ejecutarlo en otra plataforma

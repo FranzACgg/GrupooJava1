@@ -1,0 +1,38 @@
+Bloque 2:
+2.1)
+-  int numero;
+- double numeroDecimal;
+- boolean datoBiestable;
+- String cadenaDeTexto;
+- Void metodoArealizar(){}
+
+2.2) 
+    clase: CuentaBancaria
+    variable: saldoTotal
+    metodo: calcularInteres
+    clase: Factura
+    variable: nombreCliente
+
+2.3)
+    1) No compila la primer linea, porque public es una palabra reservada, 
+    que se usa para definir el alcance de un metodo o atributo en una clase
+    3) For es otra palabra reservada, pero en este caso esta siendo usada como nombre de una variable double
+    5) Declara 2 veces el tipo de dato, usando boolean e int como nombre de la variable  
+
+2.4) 
+    public class Hola{
+        public static void main(String[] args)[
+            System.out.println("Hola mundo");
+        ]
+    }
+2.5)
+/*La clase circulo, calcula, por medio de un radio asignado y de tipo de dato double,
+el tamanio del area de un circulo */
+public class Circulo {
+double radio = 5;
+//Este es el calculo para hallar el area de un circulo, pi por radio al cuadrado
+double area = 3.14 * radio * radio;
+}
+
+
+
