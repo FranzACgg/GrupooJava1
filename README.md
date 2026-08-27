@@ -11,3 +11,7 @@ Soy Matias Yujra, mi objetivo es recibirme como ingeniero informatico. Me gradue
 # Bitácoras
 ### Bitácora 10-8-26
 Introduccion a la creacion de un repositorio en github, introduccion a el paradigma orientado a objetoss
+
+### Bitácora 24-8-26
+Ejercicios de programacion con java, familiarizandose con la sintaxis y aplicando la funcion de bucle for
+
