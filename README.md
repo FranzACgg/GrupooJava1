@@ -15,3 +15,8 @@ Introduccion a la creacion de un repositorio en github, introduccion a el paradi
 ### Bitácora 24-8-26
 Ejercicios de programacion con java, familiarizandose con la sintaxis y aplicando la funcion de bucle for
 
+### Bitácora 31-8-26
+Ejercitación con diagramas UML, diagrama de secuencia y programación en java
+
+### Bitácora 07-9-26
+Corrección de diagramas de UML, demo del 1er parcial
