@@ -8,6 +8,9 @@ Actualmente ya logre aprender Python, Java y Analisis Matemático. Además se In
 
 Soy Matias Yujra, mi objetivo es recibirme como ingeniero informatico. Me gradue en una escuela tecnica y me recibi como Tecnico en computacion. Tengo un nivel Bajo en ingles
 
+Mi nombre es Nicolas Angel Caceres.
+Soy estudiante de ingenieria en informatica, tecnico electromecanico y actualmente trabajo en una inmobiliaria, mi nivel de ingles es intermedio.
+
 # Bitácoras
 ### Bitácora 10-8-26
 Introduccion a la creacion de un repositorio en github, introduccion a el paradigma orientado a objetoss
