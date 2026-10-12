@@ -1,25 +1,55 @@
-﻿# Introducciones
-Soy Franz Acevedo, tengo 22 años de edad y me encuentro estudiando la carrera de Ingeniería en sistemas de la información.
-Se programar en python, c++, tengo nivel de ingles intermedio.
+# Introducciones
 
-Soy Lucas Fernandez Gagliardi, actualmente me encuentro estudiando en la carrera <Ingenieria en Informática> en la Universidad Argentina de la Empresa. 
-Mis objetivos actuales son capacitarme en la informatica y graduarme lo antes posible.
-Actualmente ya logre aprender Python, Java y Analisis Matemático. Además se Inglés y Alemán y se soldar circuitos básicos.
+### Franz Acevedo
+Tengo 22 años y estoy cursando la carrera de Ingeniería en Sistemas de Información. Sé programar en **Python** y **C++**, y tengo un nivel intermedio de inglés. Me interesa seguir fortaleciendo mis bases de programación y aplicarlas en proyectos en equipo.
 
-Soy Matias Yujra, mi objetivo es recibirme como ingeniero informatico. Me gradue en una escuela tecnica y me recibi como Tecnico en computacion. Tengo un nivel Bajo en ingles
+### Lucas Fernandez Gagliardi
+Actualmente estudio Ingeniería en Informática en la Universidad Argentina de la Empresa (UADE). Mi objetivo es capacitarme en el área informática y graduarme lo antes posible. Hasta ahora aprendí **Python**, **Java** y **Análisis Matemático**. Además hablo inglés y alemán, y sé soldar circuitos básicos, lo que me da una mirada práctica sobre el hardware.
 
-Mi nombre es Nicolas Angel Caceres.
-Soy estudiante de ingenieria en informatica, tecnico electromecanico y actualmente trabajo en una inmobiliaria, mi nivel de ingles es intermedio.
+### Matias Yujra
+Mi objetivo es recibirme de Ingeniero Informático. Me gradué en una escuela técnica con el título de Técnico en Computación, lo que me dio una base sólida en el área. Mi nivel de inglés es bajo, y es un aspecto que quiero mejorar a lo largo de la carrera.
+
+### Nicolas Angel Caceres
+Soy estudiante de Ingeniería en Informática y Técnico Electromecánico. Actualmente trabajo en una inmobiliaria, así que combino el estudio con la experiencia laboral. Tengo un nivel intermedio de inglés.
+
+---
 
 # Bitácoras
-### Bitácora 10-8-26
-Introduccion a la creacion de un repositorio en github, introduccion a el paradigma orientado a objetoss
 
-### Bitácora 24-8-26
-Ejercicios de programacion con java, familiarizandose con la sintaxis y aplicando la funcion de bucle for
+### Bitácora 10-08-26
+**Temas:** Control de versiones y programación orientada a objetos.
+- Introducción a la creación de un repositorio en GitHub: cómo crearlo y organizarlo para el trabajo colaborativo.
+- Primer acercamiento al paradigma de programación orientada a objetos (POO): conceptos de clase, objeto, atributos y métodos.
 
-### Bitácora 31-8-26
-Ejercitación con diagramas UML, diagrama de secuencia y programación en java
+- *Dificultades:* Familiarizarse con el flujo de trabajo de Git y GitHub (repositorio, commits, ramas) y entender la diferencia entre clase y objeto.
+- *Aprendizajes:* Comprendimos la importancia del control de versiones para trabajar en equipo y cómo la POO permite modelar problemas a partir de entidades del mundo real.
 
-### Bitácora 07-9-26
-Corrección de diagramas de UML, demo del 1er parcial
+---
+
+### Bitácora 24-08-26
+**Temas:** Práctica de Java y estructuras de repetición.
+- Resolución de ejercicios de programación en Java para familiarizarnos con la sintaxis del lenguaje.
+- Aplicación de la estructura de repetición "for" en distintos problemas.
+
+- *Dificultades:* Adaptarse a la sintaxis de Java (tipado estático, llaves, punto y coma) ya que veniamos usando Python.
+- *Aprendizajes:* Aprendimos a usar el bucle "for" para automatizar tareas repetitivas.
+
+---
+
+### Bitácora 31-08-26
+**Temas:** Modelado con UML y práctica en Java.
+- Ejercitación con diagramas UML, en particular el diagrama de secuencia, para representar la interacción entre objetos.
+- Práctica de programación en Java, vinculando el modelado con la implementación.
+
+- *Dificultades:* Representar correctamente el orden de los mensajes entre objetos en el diagrama de secuencia y pasar el diseño a código.
+- *Aprendizajes:* Entendimos que diseñar antes de programar ayuda a detectar errores temprano y a que el equipo comparta una misma visión del sistema.
+
+---
+
+### Bitácora 07-09-26
+**Temas:** Revisión y preparación del primer parcial.
+- Corrección de los diagramas UML realizados anteriormente, identificando y resolviendo errores.
+- Demo del primer parcial, para practicar el formato y los contenidos de la evaluación.
+
+- *Dificultades:* Detectar errores en nuestros propios diagramas y administrar el tiempo durante la demo del parcial.
+- *Aprendizajes:* Reforzamos los conceptos de UML y POO, aprendimos a revisar el trabajo antes de entregarlo.
