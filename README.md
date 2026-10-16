@@ -53,3 +53,26 @@ Soy estudiante de Ingeniería en Informática y Técnico Electromecánico. Actua
 
 - *Dificultades:* Detectar errores en nuestros propios diagramas y administrar el tiempo durante la demo del parcial.
 - *Aprendizajes:* Reforzamos los conceptos de UML y POO, aprendimos a revisar el trabajo antes de entregarlo.
+
+### Bitácora 14-09-26
+**Temas:** Parcial de Paradigma Orientado a objetos
+
+## Bitácora 21-09-26
+**Temas:** Herencia, sobrecarga y sobreescritura de métodos e inicio del proyecto en java.
+-  Ejercitación con herencia de clases, sobrecarga de clases y funciones y forma de implementarlo en el proyecto.
+-  Planteamiento de las directrices del proyecto, borradores y diseño prematuro de un grafico UML.
+-  *Dificultades:* Como implementar las herencias en el proyecto de POO.
+-  *Aprendizajes:* Como diseñar un proyecto en java, en el caso de este grupo un juego en java.  
+  
+## Bitácora 28-09-26
+**Temas:** Patrones GRASP y SOLID, diseño final del proyecto.
+-  Estudio sobre que son los patrones GRASP y SOLID, y como implementarlos en el proyecto.
+-  Se concreto la planeación del proyecto junto con el UML y empezó la etapa de programación.
+-  *Dificultades:* Aprender como funcionan la biblioteca JSWING.
+-  *Aprendizajes:* Nueva perspectiva sobre como diseñar un proyecto de forma clara.
+
+## Bitácora 05-10-26
+**Temas:** Avance del juego en Java y los modificadores de acceso de clase.
+-  Avance en el proyecto, análisis de opciones y forma de implementar el personaje en el juego.
+-   *Dificultades:* Plantear cada aspecto que debe tener un personaje al momento de agregarlo al juego.
+-   *Aprendizajes:* Entendimiento sobre como funcionan los juegos por dentro.
