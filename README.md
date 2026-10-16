@@ -1,5 +1,10 @@
 # Introducciones
 
+<td width="220">
+      <img width="200" height="200" style="object-fit: cover; object-position: center;" alt="Franz Acevedo" src="https://github.com/user-attachments/assets/1b410afb-a91f-42aa-8015-40e6ea7f3591"/>
+    </td>
+    <td>
+      
 ### Franz Acevedo
 Tengo 22 años y estoy cursando la carrera de Ingeniería en Sistemas de Información. Sé programar en **Python** y **C++**, y tengo un nivel intermedio de inglés. Me interesa seguir fortaleciendo mis bases de programación y aplicarlas en proyectos en equipo.
 
