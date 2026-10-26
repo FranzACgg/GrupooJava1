@@ -64,7 +64,7 @@ public class GameLoop implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
         long ahora = System.nanoTime();
-        double dt = Math.min((ahora - ultimoTick) / 1e9, 0.05);   // tope por si se traba la ventana
+        double dt = Math.min((ahora - ultimoTick) / 1e9, 0.05);
         ultimoTick = ahora;
         if (enEjecucion) actualizar(dt);
         alRedibujar.run();

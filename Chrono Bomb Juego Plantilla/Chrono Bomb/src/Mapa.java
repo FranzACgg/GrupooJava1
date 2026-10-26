@@ -4,7 +4,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 
-/** Grilla del juego: paredes, bloques rompibles e items escondidos. */
+// Grilla del juego: paredes, bloques rompibles e items escondidos.
 public class Mapa {
     private final TipoCasilla[][] casillas = new TipoCasilla[Config.FILAS][Config.COLUMNAS];
     private final Item[][] items = new Item[Config.FILAS][Config.COLUMNAS];
@@ -31,7 +31,7 @@ public class Mapa {
         }
     }
 
-    /** Esquinas 3x3 (donde aparecen los jugadores) y centro 3x3 (corona). */
+    // Esquinas 3x3 (donde aparecen los jugadores) y centro 3x3 (corona).
     private boolean enZonaLibre(int x, int y) {
         boolean esquinaX = x <= 3 || x >= Config.COLUMNAS - 4;
         boolean esquinaY = y <= 3 || y >= Config.FILAS - 4;
@@ -39,7 +39,7 @@ public class Mapa {
         return (esquinaX && esquinaY) || centro;
     }
 
-    /** Esconde 60 items debajo de bloques elegidos al azar. */
+    // Esconde 60 items debajo de bloques elegidos al azar.
     private void repartirItems(Random azar) {
         List<Point> bloques = new ArrayList<>();
         for (int y = 0; y < Config.FILAS; y++)
@@ -58,7 +58,7 @@ public class Mapa {
         return casillas[y][x] == TipoCasilla.VACIO;
     }
 
-    /** Rompe el bloque y deja a la vista el item que tenia abajo (si habia). */
+    // Rompe el bloque y deja a la vista el item que tenia abajo (si habia).
     public void destruirObjeto(int x, int y) {
         casillas[y][x] = TipoCasilla.VACIO;
         if (items[y][x] != null) items[y][x].revelar();
@@ -69,7 +69,7 @@ public class Mapa {
     public void ponerItem(int x, int y, Item item) { items[y][x] = item; }
     public void quitarItem(int x, int y) { items[y][x] = null; }
 
-    /** Quita el item solo si ya estaba a la vista (los ocultos estan protegidos por su bloque). */
+    // Quita el item solo si ya estaba a la vista (los ocultos estan protegidos por su bloque).
     public void quitarItemVisible(int x, int y) {
         if (items[y][x] != null && items[y][x].isVisible()) items[y][x] = null;
     }

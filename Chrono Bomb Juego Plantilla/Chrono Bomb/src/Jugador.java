@@ -37,11 +37,16 @@ public class Jugador {
 
     // ---------- Stats efectivos ----------
     public double getVelocidad() {
-        if (tieneCorona) return Config.VELOCIDAD_CORONA;
+        if (tieneCorona) {
+            return Config.VELOCIDAD_BASE;
+        }
         return Config.VELOCIDAD_BASE + mejoras.getVelocidad() * Config.VELOCIDAD_POR_MEJORA;
     }
     public int getRango() {
-        return tieneCorona ? Config.RANGO_BASE : Config.RANGO_BASE + mejoras.getRango();
+        if (tieneCorona){
+            return Config.RANGO_BASE;
+        }
+        return Config.RANGO_BASE + mejoras.getRango();
     }
     public int getMaxBombas() {
         return tieneCorona ? 1 : 1 + mejoras.getBombas();

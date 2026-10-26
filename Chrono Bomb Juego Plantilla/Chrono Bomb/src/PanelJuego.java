@@ -1,6 +1,5 @@
 import java.awt.*;
 import java.awt.geom.Ellipse2D;
-import java.util.List;
 import javax.swing.JPanel;
 
 /** Solo DIBUJA el estado del GameLoop. No contiene reglas del juego. */
