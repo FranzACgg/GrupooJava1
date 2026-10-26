@@ -24,6 +24,7 @@ public class PanelJuego extends JPanel {
         super.paintComponent(g0);
         Graphics2D g = (Graphics2D) g0;
         g.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
+
         dibujarMapa(g);
         dibujarItems(g);
         dibujarBombas(g);
@@ -121,7 +122,7 @@ public class PanelJuego extends JPanel {
             // posicion en pantalla = centro (en casilleros) * tamanio - mitad del cuerpo
             int cx = (int) Math.round(j.getPosX() * T);
             int cy = (int) Math.round(j.getPosY() * T);
-            int px = cx -lado / 2, py = cy - lado / 2;
+            int px = cx - lado / 2, py = cy - lado / 2;
 
             g.setColor(j.getColor());
             g.fillRoundRect(px, py, lado, lado, 14, 14);

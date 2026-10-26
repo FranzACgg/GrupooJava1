@@ -1,4 +1,0 @@
-CHRONO BOMB - como ejecutarlo
-  javac *.java
-  java Main
-(Necesita JDK 11 o superior. Se puede abrir tambien como carpeta en IntelliJ / Eclipse / VS Code.)

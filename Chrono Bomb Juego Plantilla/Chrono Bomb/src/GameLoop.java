@@ -41,7 +41,6 @@ public class GameLoop implements ActionListener {
         this.timer = new Timer(1000 / Config.FPS, this);
     }
 
-
     private Jugador[] inicializarJugadores(int cant) {
         int ultimoX = Config.COLUMNAS - 2, ultimoY = Config.FILAS - 2;
         int[][] esquinas = {{1, 1}, {ultimoX, 1}, {1, ultimoY}, {ultimoX, ultimoY}};
