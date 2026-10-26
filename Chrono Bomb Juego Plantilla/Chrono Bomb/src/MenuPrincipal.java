@@ -6,6 +6,7 @@ public class MenuPrincipal extends JFrame {
 
     public MenuPrincipal() {
         super("Chrono Bomb");
+        //Cierra la aplicacion por completo cuando se seleccione "x" y es 3 definida por java (Cerrar definitivamente)
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setSize(420, 320);
         setLocationRelativeTo(null);
@@ -20,7 +21,7 @@ public class MenuPrincipal extends JFrame {
         titulo.setForeground(new Color(255, 205, 40));
 
         JLabel subtitulo = new JLabel("Mantené la corona 20 segundos", SwingConstants.CENTER);
-        subtitulo.setForeground(Color.LIGHT_GRAY);
+        subtitulo.setForeground(Color.BLACK);
 
         JButton jugar = new JButton("Jugar");
         jugar.addActionListener(e -> iniciarConfigPartida());
@@ -39,6 +40,7 @@ public class MenuPrincipal extends JFrame {
     public MenuPartida iniciarConfigPartida() {
         MenuPartida menu = new MenuPartida();
         menu.setVisible(true);
+        //Finaliza los recursos que usa Swing
         dispose();
         return menu;
     }

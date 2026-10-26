@@ -23,7 +23,7 @@ public class PanelJuego extends JPanel {
     protected void paintComponent(Graphics g0) {
         super.paintComponent(g0);
         Graphics2D g = (Graphics2D) g0;
-        g.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
+        g.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON); //Suavizado de bordes
 
         dibujarMapa(g);
         dibujarItems(g);
@@ -116,6 +116,8 @@ public class PanelJuego extends JPanel {
         int lado = (int) Math.round(Config.MEDIO_HITBOX * 2 * T);   // el dibujo coincide con la hitbox
         for (Jugador j : gameLoop.getJugadores()) {
             if (!j.estaVivo()) continue;
+
+            // ilusion de parpadeo anlternando entre true y false
             boolean parpadeo = j.getTiempoInvulnerable() > 0 && ((int) (j.getTiempoInvulnerable() * 10) % 2 == 0);
             if (parpadeo) continue;
 
@@ -160,15 +162,7 @@ public class PanelJuego extends JPanel {
 
             g.setColor(Color.LIGHT_GRAY);
             g.setFont(new Font("SansSerif", Font.PLAIN, 12));
-            if (!j.estaVivo()) {
-                g.drawString(String.format("Reaparece en %.1fs", j.getTiempoReaparicion()), x, base + 38);
-            } else {
-                g.drawString(String.format("Vel %.1f  Rango %d  Bombas %d",
-                        j.getVelocidad(), j.getRango(), j.getMaxBombas()), x, base + 38);
-                g.drawString(String.format("Deto %.1fs%s%s", j.getTiempoDetonacion(),
-                        j.tieneEscudo() ? "  [Escudo]" : "",
-                        j.tieneGolpeAturdidor() ? "  [Golpe]" : ""), x, base + 54);
-            }
+
             if (j.tieneCorona()) {
                 g.setColor(new Color(255, 205, 40));
                 g.drawString(String.format("CORONA %.1f / %.0fs", j.getTiempoCorona(),

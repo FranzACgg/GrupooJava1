@@ -4,7 +4,6 @@ import javax.swing.*;
 /** Pantalla donde se elige cuantos juegan y se ven los controles. */
 public class MenuPartida extends JFrame {
     private int cantJuga = 2;
-    private String instJuego = "";
     private final JTextArea info = new JTextArea();
 
     public MenuPartida() {
@@ -27,7 +26,7 @@ public class MenuPartida extends JFrame {
         info.setEditable(false);
         info.setFont(new Font("Monospaced", Font.PLAIN, 13));
         info.setBorder(BorderFactory.createEmptyBorder(10, 15, 10, 15));
-        mostrarInfo(cantJuga, instJuego);
+        mostrarInfo(cantJuga);
 
         JButton iniciar = new JButton("Iniciar partida");
         iniciar.addActionListener(e -> iniciarPartida());
@@ -44,11 +43,11 @@ public class MenuPartida extends JFrame {
 
     public int seleccionarJugadores(int cantJuga) {
         this.cantJuga = cantJuga;
-        mostrarInfo(cantJuga, instJuego);
+        mostrarInfo(cantJuga);
         return cantJuga;
     }
 
-    public void mostrarInfo(int cantJuga, String instJuego) {
+    public void mostrarInfo(int cantJuga) {
         StringBuilder sb = new StringBuilder("Controles:\n\n");
         for (int i = 0; i < cantJuga; i++)
             sb.append("  Jugador ").append(i + 1).append(": ").append(ControlTeclas.descripcion(i)).append("\n");
