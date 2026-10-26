@@ -38,7 +38,7 @@ public class Jugador {
     // ---------- Stats efectivos ----------
     public double getVelocidad() {
         if (tieneCorona) {
-            return Config.VELOCIDAD_BASE;
+            return Config.VELOCIDAD_BASE - 1.8;
         }
         return Config.VELOCIDAD_BASE + mejoras.getVelocidad() * Config.VELOCIDAD_POR_MEJORA;
     }
@@ -49,14 +49,19 @@ public class Jugador {
         return Config.RANGO_BASE + mejoras.getRango();
     }
     public int getMaxBombas() {
-        return tieneCorona ? 1 : 1 + mejoras.getBombas();
+        if (tieneCorona){
+            return  1;
+        }
+         return 1 + mejoras.getBombas();
     }
     public double getTiempoDetonacion() {
-        return tieneCorona ? Config.DETONACION_BASE
-                : Config.DETONACION_BASE + mejoras.getDetonacion() * Config.DETONACION_POR_MEJORA;
+        if (tieneCorona){
+            return Config.DETONACION_BASE + 0.5;
+        }
+        return Config.DETONACION_BASE + mejoras.getDetonacion() * Config.DETONACION_POR_MEJORA;
     }
     public boolean tieneEscudo() { return !tieneCorona && mejoras.tieneEscudo(); }
-    public boolean tieneGolpeAturdidor() { return !tieneCorona && mejoras.tieneGolpeAturdidor(); }
+    public boolean tieneGolpeAturdidor() { return !(tieneCorona) && mejoras.tieneGolpeAturdidor(); }
 
     // ---------- Posicion ----------
     /** Casillero que contiene el centro del jugador (para bombas, items, corona y explosiones). */

@@ -98,7 +98,9 @@ public class PanelJuego extends JPanel {
 
     private void dibujarCoronaLibre(Graphics2D g) {
         Corona c = gameLoop.getCorona();
-        if (c.estaLibre()) dibujarCorona(g, c.getPosX() * T + 6, c.getPosY() * T + 8, T - 12);
+        if (c.estaLibre()) {
+            dibujarCorona(g, c.getPosX() * T + 6, c.getPosY() * T + 8, T - 12);
+        }
     }
 
     private void dibujarCorona(Graphics2D g, int x, int y, int ancho) {
@@ -141,7 +143,9 @@ public class PanelJuego extends JPanel {
                 g.setColor(Color.YELLOW);
                 g.drawString("zZ", cx + 6, py - 2);
             }
-            if (j.tieneCorona()) dibujarCorona(g, cx - 10, py - 16, 20);
+            if (j.tieneCorona()){
+                dibujarCorona(g, cx - 10, py - 16, 20);
+            }
         }
     }
 

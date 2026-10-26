@@ -14,10 +14,9 @@ public final class Config {
 
     // Jugador
     public static final double VELOCIDAD_BASE = 3;          // casilleros por segundo
-    public static final double VELOCIDAD_CORONA = 5;
     public static final double VELOCIDAD_POR_MEJORA = 0.5;
     public static final int RANGO_BASE = 2;
-    public static final double DETONACION_BASE = 0.5;       // segundos
+    public static final double DETONACION_BASE = 1.5;       // segundos
     public static final double DETONACION_POR_MEJORA = 0.5;
     public static final double TIEMPO_REAPARICION = 3;
     public static final double TIEMPO_INVULNERABLE = 1;
