@@ -1,0 +1,7 @@
+# Modo 2: VELOCIDAD DE LA LUZ
+# velocidadExtra se SUMA a la velocidad base (3 casilleros por segundo)
+nombre=Velocidad de la Luz
+descripcion=Todos arrancan con 4 puntos mas de velocidad (7 casilleros por segundo).
+bombasIniciales=1
+velocidadExtra=4
+escudoInicial=false

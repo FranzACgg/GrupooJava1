@@ -1,0 +1,39 @@
+CHRONO BOMB V3 - como ejecutarlo
+  javac *.java
+  java Main
+IMPORTANTE: ejecutar SIEMPRE parado en esta carpeta (la que contiene la carpeta "niveles"),
+porque los archivos de nivel se buscan con ruta relativa ("niveles/xxx.txt").
+En IntelliJ/Eclipse: configurar el "Working directory" como esta carpeta.
+(Necesita JDK 11 o superior.)
+
+NOVEDADES DE LA V3: MODOS DE JUEGO
+  El menu "Jugar" ahora tiene dos filas: cantidad de jugadores y modo.
+  1) Lluvia de Explosiones : se pueden plantar 4 bombas a la vez desde el inicio
+  2) Velocidad de la Luz   : +4 casilleros/seg de velocidad (7 en total)
+  3) Escudo Anti Bombas    : todos aparecen (y reaparecen) con escudo
+
+  Cada modo es un archivo de texto en la carpeta "niveles/":
+      niveles/lluvia_explosiones.txt
+      niveles/velocidad_luz.txt
+      niveles/escudo_anti_bombas.txt
+  Formato (clave=valor, las lineas con # son comentarios):
+      nombre=...            descripcion=...
+      bombasIniciales=1     velocidadExtra=0     escudoInicial=false
+
+  Se leen con FileReader + BufferedReader en Nivel.cargar().
+  Si un archivo falta o tiene un error, el menu muestra un AVISO y usa valores normales.
+
+  Para agregar un modo nuevo: crear otro .txt y sumar su ruta en Config.ARCHIVOS_NIVELES.
+
+ARCHIVOS NUEVOS / CAMBIADOS
+  Nivel.java        (nuevo)  lee y guarda la configuracion de un modo
+  Config.java       lista de archivos de nivel
+  Jugador.java      usa el Nivel (bombas iniciales, velocidad extra, escudo inicial)
+  GameLoop / PanelJuego / VentanaJuego   reciben el Nivel
+  MenuPartida.java  eleccion del modo
+
+REGLAS QUE NO CAMBIARON
+  El portador de la corona sigue con velocidad fija, 1 bomba y sin mejoras (ni escudo) mientras la lleva.
+
+(V2) Hilos: GameLoop y cada Bomba corren en su propio hilo. try/catch/finally en
+GameLoop.run, Bomba.run, MenuPartida.iniciarPartida, ControlTeclas.descripcion y Nivel.cargar.

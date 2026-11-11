@@ -1,0 +1,7 @@
+# Modo 3: ESCUDO ANTI BOMBAS
+# escudoInicial=true: todos aparecen (y reaparecen) con escudo
+nombre=Escudo Anti Bombas
+descripcion=Todos los jugadores vienen con escudo por defecto.
+bombasIniciales=1
+velocidadExtra=0
+escudoInicial=true

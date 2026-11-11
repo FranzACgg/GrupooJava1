@@ -1,0 +1,7 @@
+# Modo 1: LLUVIA DE EXPLOSIONES
+# Formato: clave=valor (las lineas que empiezan con # son comentarios)
+nombre=Lluvia de Explosiones
+descripcion=Todos arrancan pudiendo plantar 4 bombas a la vez.
+bombasIniciales=4
+velocidadExtra=0
+escudoInicial=false
