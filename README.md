@@ -81,3 +81,31 @@ Soy estudiante de Ingeniería en Informática y Técnico Electromecánico. Actua
 -  Avance en el proyecto, análisis de opciones y forma de implementar el personaje en el juego.
 -   *Dificultades:* Plantear cada aspecto que debe tener un personaje al momento de agregarlo al juego.
 -   *Aprendizajes:* Entendimiento sobre como funcionan los juegos por dentro.
+-   
+## Bitácora 12-10-26
+**Temas:** Avance del juego en Java y los modificadores de acceso de clase.
+-  Avance en el proyecto, análisis de opciones y forma de implementar el personaje en el juego.
+-   *Dificultades:* Plantear cada aspecto que debe tener un personaje al momento de agregarlo al juego.
+-   *Aprendizajes:* Entendimiento sobre como funcionan los juegos por dentro.
+-   
+## Bitácora 19-10-26
+**Temas:** Excepciones, Throw, Throws, try, Catch y finally.
+-  Identificar como usar y diferenciar entre Throw y Throws.
+-   *Dificultades:* Identificar donde implementar excepciones en nuestro programa.
+-   *Aprendizajes:* Una nueva forma de tratar con las interrupciones en nuestro programa.
+-
+## Bitácora 26-10-26
+**Temas:** Tema Hilos y Runeable, identificar su uso e implementación.
+-  Avance en el proyecto, análisis de opciones y forma de implementar el personaje en el juego.
+-   *Dificultades:* Entender como aplicar los hilos en nuestro programa.
+-   *Aprendizajes:* Como ejecutar otras funciones en paralelo.
+-   
+## Bitácora 09-11-26
+**Temas:** Practica y pulido final de nuestro proyecto.
+-  Finalización del documento, y contenido de nuestro proyecto.
+-   *Dificultades:* Hacer el UML de nuestro proyecto y los diagramas de flujo.
+-   *Aprendizajes:* Dimensionar todo lo que se necesita para poder llevar acabo un proyecto,
+-   siguiendo los lineamientos de la cursada.
+
+  
+
